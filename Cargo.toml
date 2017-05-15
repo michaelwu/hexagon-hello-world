@@ -1,0 +1,13 @@
+[package]
+name = "hexagon-hello-world"
+version = "0.1.0"
+authors = ["Michael Wu <mwu.code@gmail.com>"]
+
+[dependencies]
+
+# No support for unwinding yet
+[profile.release]
+panic = "abort"
+
+[profile.dev]
+panic = "abort"
