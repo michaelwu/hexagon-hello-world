@@ -40,10 +40,10 @@ Make sure the hexagon tools are in the `PATH`.
 
 Build
 ```
-xargo build --target hexagon-unknown-elf --release
+% xargo build --target hexagon-unknown-elf --release
 ```
 
 Run
 ```
-hexagon-sim target/hexagon-unknown-elf/release/hexagon-hello-world
+% hexagon-sim target/hexagon-unknown-elf/release/hexagon-hello-world
 ```
